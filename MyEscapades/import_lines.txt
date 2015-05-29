@@ -1,0 +1,18 @@
+import mcpi.minecraft as minecraft
+import mcpi.block as block
+import time
+#import RPi.GPIO as GPIO #pi
+import anyio.GPIO as GPIO #arduino
+import mcpi.minecraftstuff as minecraftstuff
+
+import anyio.seg7 as display
+LED_PINS = [10,22,25,8,7,9,11,15] #pi
+LED_PINS = [7,6,14,16,10,8,9,15] #arduino
+display.setup(GPIO, LED_PINS, ON)
+
+GPIO.setmode(GPIO.BCM)
+
+mc = minecraft.Minecraft.create()
+mcdrawing = minecraftstuff.MinecraftDrawing(mc)
+
+pos = mc.player.getTilePos()
