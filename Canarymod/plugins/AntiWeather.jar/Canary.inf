@@ -1,0 +1,5 @@
+;http://svdragster.dtdns.net
+name=AntiWeather
+main-class=de.svdragster.antiweather.AntiWeather
+author=svdragster
+version=1.0

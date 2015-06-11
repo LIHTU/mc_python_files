@@ -1,57 +1,38 @@
-[14:50:12] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0
-[14:50:12] [CanaryMod] [INFO]: Canary Path: /C:/code/minecraft_code/mc_python_files/Canarymod/canarymod.jar & Working From: C:\code\minecraft_code\mc_python_files\Canarymod
-[14:50:13] [CanaryMod] [INFO]: Registered xml Database
-[14:50:14] [CanaryMod] [INFO]: Found 2 plugins; total: 2
-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:50:16] [CanaryMod] [INFO]: Enabling early Plugins...
-[14:50:17] [CanaryMod] [INFO]: Enabling late Plugins...
-[14:50:17] [CanaryMod] [INFO]: Enabling plugin CanaryAlwaysCreative
-[14:50:17] [CanaryAlwaysCreative] [INFO]: Enabling CanaryAlwaysCreative Version 1.0.1
-[14:50:17] [CanaryAlwaysCreative] [INFO]: Authored by Martin OHanlon
-[14:50:17] [CanaryMod] [INFO]: Enabling plugin CanaryRaspberryJuicePlugin
-[14:50:17] [CanaryRaspberryJuicePlugin] [INFO]: Enabling CanaryRaspberryJuicePlugin Version 1.3
-[14:50:17] [CanaryRaspberryJuicePlugin] [INFO]: Authored by Martin OHanlon
-[14:50:17] [CanaryRaspberryJuicePlugin] [INFO]: ThreadListener Started
-[14:50:17] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
-[14:50:18] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 8%
-[14:50:19] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 23%
-[14:50:20] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 48%
-[14:50:21] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 73%
-[14:50:22] [CanaryAlwaysCreative] [INFO]: World [default] made creative
-[14:50:22] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (5.463s)! For help, type "help" or "?"
-[14:54:51] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: robinanelson[/127.0.0.1:10712] logged in with entity id 9 at (0.386048615911898, 31.0, 1.39775049010034)
-[14:54:51] [net.minecraft.server.MinecraftServer] [INFO]: robinanelson joined the game
-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Starting input thread
-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Opened connection to/127.0.0.1:10713.
-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Starting output thread
-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Starting input thread
-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Opened connection to/127.0.0.1:10714.
-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Starting output thread
-[14:55:18] [net.minecraft.server.MinecraftServer] [WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11437ms behind, skipping 228 tick(s)
-[14:55:20] [CanaryMod] [INFO]: Press F3 on your keyboard
-[14:55:23] [CanaryMod] [INFO]: Look for the line called "Block:"
-[14:55:28] [CanaryMod] [INFO]: This displays your x, y, z coordinates
-[14:55:38] [CanaryMod] [INFO]: For now we'll just look at the first number.
-[14:55:42] [CanaryRaspberryJuicePlugin] [INFO]: Closed connection to/127.0.0.1:10713.
-[14:55:42] [CanaryRaspberryJuicePlugin] [INFO]: Closed connection to/127.0.0.1:10714.
-[14:56:15] [CanaryRaspberryJuicePlugin] [INFO]: Starting input thread
-[14:56:15] [CanaryRaspberryJuicePlugin] [INFO]: Opened connection to/127.0.0.1:10725.
-[14:56:15] [CanaryRaspberryJuicePlugin] [INFO]: Starting output thread
-[14:56:20] [CanaryRaspberryJuicePlugin] [INFO]: Closed connection to/127.0.0.1:10725.
-[17:19:53] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
-[17:19:53] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
-[17:19:53] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
-[17:19:53] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
-[17:19:53] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
-[17:19:53] [CanaryMod] [INFO]: Disabling Plugins ...
-[17:19:53] [CanaryMod] [INFO]: Disabling plugin CanaryAlwaysCreative
-[17:19:53] [CanaryAlwaysCreative] [INFO]: AlwaysCreative disabled
-[17:19:53] [CanaryMod] [INFO]: Disabling plugin CanaryRaspberryJuicePlugin
-[17:19:53] [CanaryRaspberryJuicePlugin] [INFO]: Raspberry Juice Stopped
+[18:28:20] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0
+[18:28:20] [CanaryMod] [INFO]: Canary Path: /C:/code/minecraft_code/mc_python_files/Canarymod/canarymod.jar & Working From: C:\code\minecraft_code\mc_python_files\Canarymod
+[18:28:20] [CanaryMod] [INFO]: Registered xml Database
+[18:28:20] [CanaryMod] [INFO]: Found 3 plugins; total: 3
+[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
+[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
+[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
+[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
+[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:28:21] [CanaryMod] [INFO]: Enabling early Plugins...
+[18:28:22] [CanaryMod] [INFO]: Enabling late Plugins...
+[18:28:22] [CanaryMod] [INFO]: Enabling plugin AntiWeather
+[18:28:22] [CanaryMod] [INFO]: Enabling plugin CanaryAlwaysCreative
+[18:28:22] [CanaryAlwaysCreative] [INFO]: Enabling CanaryAlwaysCreative Version 1.0.1
+[18:28:22] [CanaryAlwaysCreative] [INFO]: Authored by Martin OHanlon
+[18:28:22] [CanaryMod] [INFO]: Enabling plugin CanaryRaspberryJuicePlugin
+[18:28:22] [CanaryRaspberryJuicePlugin] [INFO]: Enabling CanaryRaspberryJuicePlugin Version 1.3
+[18:28:22] [CanaryRaspberryJuicePlugin] [INFO]: Authored by Martin OHanlon
+[18:28:22] [CanaryRaspberryJuicePlugin] [INFO]: ThreadListener Started
+[18:28:22] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
+[18:28:23] [CanaryAlwaysCreative] [INFO]: World [default] made creative
+[18:28:23] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (1.370s)! For help, type "help" or "?"
+[18:29:04] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: robinanelson[/127.0.0.1:14423] logged in with entity id 8 at (0.4888534705160735, 1.0, 0.30000001192092896)
+[18:29:04] [net.minecraft.server.MinecraftServer] [INFO]: robinanelson joined the game
+[18:29:31] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
+[18:29:31] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
+[18:29:31] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
+[18:29:31] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
+[18:29:31] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
+[18:29:31] [CanaryMod] [INFO]: Disabling Plugins ...
+[18:29:31] [CanaryMod] [INFO]: Disabling plugin AntiWeather
+[18:29:31] [CanaryMod] [INFO]: Disabling plugin CanaryAlwaysCreative
+[18:29:31] [CanaryAlwaysCreative] [INFO]: AlwaysCreative disabled
+[18:29:31] [CanaryMod] [INFO]: Disabling plugin CanaryRaspberryJuicePlugin
+[18:29:31] [CanaryRaspberryJuicePlugin] [INFO]: Raspberry Juice Stopped

@@ -30,10 +30,10 @@ four = 4
 five = 5
 ten = 10
 #will be 20
-loong = 5
+loong = 20
 # will be 30
-half = 5
-minute = 5
+half = 30
+minute = 60
 
 '''
 # initialize time delays (used to make testing quicker!)
@@ -43,9 +43,7 @@ three = .5
 four = .5
 five = .5
 ten = .5
-#will be 20
 loong = .5
-# will be 30
 half = .5
 minute = .5
 '''
@@ -264,13 +262,13 @@ while not finished:
         mc.postToChat('Type bigger or smaller in the console.')
         time.sleep(one)
         mc.postToChat('To switch to the console, hold the Alt key and press Tab.')
-        happensEast = raw_input('Does your x coord get bigger or twoer as you go east? Type "bigger" or "smaller": ')
+        happensEast = raw_input('Does your x coord get bigger or smalloer as you go east? Type "bigger" or "smaller": ')
         if happensEast == 'bigger':
             mc.postToChat("bigger, huh?  Let me check...")
             time.sleep(three)
             mc.postToChat("That's right!!!")
             time.sleep(three)
-        elif happensEast == 'twoer':
+        elif happensEast == 'smaller':
             spawnWaterTub()
             mc.postToChat('Sorry, that is wrong.')
             time.sleep(two)

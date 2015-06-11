@@ -1,0 +1,60 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 6/10/15 6:14 PM
+Description: Exception ticking world
+
+java.lang.ClassCastException: net.minecraft.entity.effect.EntityWeatherEffect$1 cannot be cast to net.canarymod.api.entity.effect.LightningBolt
+	at net.minecraft.entity.effect.EntityLightningBolt.<init>(EntityLightningBolt.java:39)
+	at net.minecraft.world.WorldServer.h(WorldServer.java:335)
+	at net.minecraft.world.WorldServer.c(WorldServer.java:193)
+	at net.minecraft.server.MinecraftServer.z(MinecraftServer.java:669)
+	at net.minecraft.server.dedicated.DedicatedServer.z(DedicatedServer.java:446)
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:587)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.entity.effect.EntityLightningBolt.<init>(EntityLightningBolt.java:39)
+	at net.minecraft.world.WorldServer.h(WorldServer.java:335)
+	at net.minecraft.world.WorldServer.c(WorldServer.java:193)
+
+-- Affected level --
+Details:
+	Level name: default
+	All players: 1 total; [EntityPlayerMP['robinanelson'/8, l='default', x=0.49, y=1.00, z=0.30]]
+	Chunk stats: ServerChunkCache: 476 Drop: 0
+	Level seed: 4009783167079423507
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: 0.00,0.00,0.00 - World: (0,0,0), Chunk: (at 0,0,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 354320 game time, 354320 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 17280 (now: true), thunder time: 9248 (now: true)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.z(MinecraftServer.java:669)
+	at net.minecraft.server.dedicated.DedicatedServer.z(DedicatedServer.java:446)
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:587)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_45, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 820783736 bytes (782 MB) / 1069023232 bytes (1019 MB) up to 1069023232 bytes (1019 MB)
+	JVM Flags: 2 total; -Xms1024M -Xmx1024M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [EntityPlayerMP['robinanelson'/8, l='default', x=0.49, y=1.00, z=0.30]]
+	Is Modded: Definitely; Server brand changed to 'CanaryMod'
+	Type: Dedicated Server (map_server.txt)

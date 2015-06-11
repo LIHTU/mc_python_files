@@ -1,0 +1,89 @@
+[1mdiff --git a/Canarymod/config/plugin_priorities.cfg b/Canarymod/config/plugin_priorities.cfg[m
+[1mindex 17643bf..5d75eed 100644[m
+[1m--- a/Canarymod/config/plugin_priorities.cfg[m
+[1m+++ b/Canarymod/config/plugin_priorities.cfg[m
+[36m@@ -1,2 +1,3 @@[m
+ CanaryAlwaysCreative=10[m
+ CanaryRaspberryJuicePlugin=10[m
+[32m+[m[32mAntiWeather=10[m
+[1mdiff --git a/Canarymod/logs/latest.log b/Canarymod/logs/latest.log[m
+[1mindex 20da1b2..ca7b973 100644[m
+[1m--- a/Canarymod/logs/latest.log[m
+[1m+++ b/Canarymod/logs/latest.log[m
+[36m@@ -1,57 +1,38 @@[m
+[31m-[14:50:12] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0[m
+[31m-[14:50:12] [CanaryMod] [INFO]: Canary Path: /C:/code/minecraft_code/mc_python_files/Canarymod/canarymod.jar & Working From: C:\code\minecraft_code\mc_python_files\Canarymod[m
+[31m-[14:50:13] [CanaryMod] [INFO]: Registered xml Database[m
+[31m-[14:50:14] [CanaryMod] [INFO]: Found 2 plugins; total: 2[m
+[31m-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8[m
+[31m-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties[m
+[31m-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair[m
+[31m-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565[m
+[31m-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE![m
+[31m-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: The server will make no attempt to authenticate usernames. Beware.[m
+[31m-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.[m
+[31m-[14:50:16] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: To change this, set "online-mode" to "true" in the server.properties file.[m
+[31m-[14:50:16] [CanaryMod] [INFO]: Enabling early Plugins...[m
+[31m-[14:50:17] [CanaryMod] [INFO]: Enabling late Plugins...[m
+[31m-[14:50:17] [CanaryMod] [INFO]: Enabling plugin CanaryAlwaysCreative[m
+[31m-[14:50:17] [CanaryAlwaysCreative] [INFO]: Enabling CanaryAlwaysCreative Version 1.0.1[m
+[31m-[14:50:17] [CanaryAlwaysCreative] [INFO]: Authored by Martin OHanlon[m
+[31m-[14:50:17] [CanaryMod] [INFO]: Enabling plugin CanaryRaspberryJuicePlugin[m
+[31m-[14:50:17] [CanaryRaspberryJuicePlugin] [INFO]: Enabling CanaryRaspberryJuicePlugin Version 1.3[m
+[31m-[14:50:17] [CanaryRaspberryJuicePlugin] [INFO]: Authored by Martin OHanlon[m
+[31m-[14:50:17] [CanaryRaspberryJuicePlugin] [INFO]: ThreadListener Started[m
+[31m-[14:50:17] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)[m
+[31m-[14:50:18] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 8%[m
+[31m-[14:50:19] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 23%[m
+[31m-[14:50:20] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 48%[m
+[31m-[14:50:21] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 73%[m
+[31m-[14:50:22] [CanaryAlwaysCreative] [INFO]: World [default] made creative[m
+[31m-[14:50:22] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (5.463s)! For help, type "help" or "?"[m
+[31m-[14:54:51] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: robinanelson[/127.0.0.1:10712] logged in with entity id 9 at (0.386048615911898, 31.0, 1.39775049010034)[m
+[31m-[14:54:51] [net.minecraft.server.MinecraftServer] [INFO]: robinanelson joined the game[m
+[31m-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Starting input thread[m
+[31m-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Opened connection to/127.0.0.1:10713.[m
+[31m-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Starting output thread[m
+[31m-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Starting input thread[m
+[31m-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Opened connection to/127.0.0.1:10714.[m
+[31m-[14:55:07] [CanaryRaspberryJuicePlugin] [INFO]: Starting output thread[m
+[31m-[14:55:18] [net.minecraft.server.MinecraftServer] [WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11437ms behind, skipping 228 tick(s)[m
+[31m-[14:55:20] [CanaryMod] [INFO]: Press F3 on your keyboard[m
+[31m-[14:55:23] [CanaryMod] [INFO]: Look for the line called "Block:"[m
+[31m-[14:55:28] [CanaryMod] [INFO]: This displays your x, y, z coordinates[m
+[31m-[14:55:38] [CanaryMod] [INFO]: For now we'll just look at the first number.[m
+[31m-[14:55:42] [CanaryRaspberryJuicePlugin] [INFO]: Closed connection to/127.0.0.1:10713.[m
+[31m-[14:55:42] [CanaryRaspberryJuicePlugin] [INFO]: Closed connection to/127.0.0.1:10714.[m
+[31m-[14:56:15] [CanaryRaspberryJuicePlugin] [INFO]: Starting input thread[m
+[31m-[14:56:15] [CanaryRaspberryJuicePlugin] [INFO]: Opened connection to/127.0.0.1:10725.[m
+[31m-[14:56:15] [CanaryRaspberryJuicePlugin] [INFO]: Starting output thread[m
+[31m-[14:56:20] [CanaryRaspberryJuicePlugin] [INFO]: Closed connection to/127.0.0.1:10725.[m
+[31m-[17:19:53] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown[m
+[31m-[17:19:53] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server[m
+[31m-[17:19:53] [net.minecraft.server.MinecraftServer] [INFO]: Saving players[m
+[31m-[17:19:53] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds[m
+[31m-[17:19:53] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld[m
+[31m-[17:19:53] [CanaryMod] [INFO]: Disabling Plugins ...[m
+[31m-[17:19:53] [CanaryMod] [INFO]: Disabling plugin CanaryAlwaysCreative[m
+[31m-[17:19:53] [CanaryAlwaysCreative] [INFO]: AlwaysCreative disabled[m
+[31m-[17:19:53] [CanaryMod] [INFO]: Disabling plugin CanaryRaspberryJuicePlugin[m
+[31m-[17:19:53] [CanaryRaspberryJuicePlugin] [INFO]: Raspberry Juice Stopped[m
+[32m+[m[32m[18:28:20] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0[m
+[32m+[m[32m[18:28:20] [CanaryMod] [INFO]: Canary Path: /C:/code/minecraft_code/mc_python_files/Canarymod/canarymod.jar & Working From: C:\code\minecraft_code\mc_python_files\Canarymod[m
+[32m+[m[32m[18:28:20] [CanaryMod] [INFO]: Registered xml Database[m
+[32m+[m[32m[18:28:20] [CanaryMod] [INFO]: Found 3 plugins; total: 3[m
+[32m+[m[32m[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8[m
+[32m+[m[32m[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties[m
+[32m+[m[32m[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair[m
+[32m+[m[32m[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565[m
+[32m+[m[32m[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE![m
+[32m+[m[32m[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: The server will make no attempt to authenticate usernames. Beware.[m
+[32m+[m[32m[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.[m
+[32m+[m[32m[18:28:21] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: To change this, set "online-mode" to "true" in the server.properties file.[m
+[32m+[m[32m[18:28:21] [CanaryMod] [INFO]: Enabling early Plugins...[m
+[32m+[m[32m[18:28:22] [CanaryMod] [INFO]: Enabling late Plugins...[m
+[32m+[m[32m[18:28:22] [CanaryMod] [INFO]: Enabling plugin AntiWeather[m
+[32m+[m[32m[18:28:22] [CanaryMod] [INFO]: Enabling plugin CanaryAlwaysCreative[m
+[32m+[m[32m[18:28:22] [CanaryAlwaysCreative] [INFO]: Enabling CanaryAlwaysCreative Version 1.0.1[m
+[32m+[m[32m[18:28:22] [CanaryAlwaysCreative] [INFO]: Authored by Martin OHanlon[m
+[32m+[m[32m[18:28:22] [CanaryMod] [INFO]: E
