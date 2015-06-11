@@ -29,7 +29,7 @@ mcdrawing = minecraftstuff.MinecraftDrawing(mc)
 pyramidMiddle = mc.player.getTilePos()
 
 PYRAMID_RADIUS = 20
-PYRAMID_HEIGHT = 10
+PYRAMID_HEIGHT = 40
 PYRAMID_SIDES = 4
 
 #loop through the number of sides, each side will become a triangle
