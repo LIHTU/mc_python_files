@@ -9,12 +9,12 @@
 
 # Import necessary modules
 import time
-import RPi.GPIO as GPIO     # use this for Raspberry Pi
-#import anyio.GPIO as GPIO  # use this for Arduino on PC/Mac
+#import RPi.GPIO as GPIO     # use this for Raspberry Pi
+import anyio.GPIO as GPIO  # use this for Arduino on PC/Mac
 
 # This is the GPIO number that the LED is attached to
 # It's not the same as the pin number on the connector though!
-LED = 15
+LED = 2
 
 # Use Broadcom pin numbering (GPIO numbers, not connector pin numbers)
 GPIO.setmode(GPIO.BCM)
@@ -33,6 +33,7 @@ def flash(t):
   # False puts 0 Volts on the pin connected to the LED, the LED goes off
   GPIO.output(LED, False)
   time.sleep(t)
+  print('false')
 
 # Game loop
 try: # Try to run this code, jump to "finally" if it fails

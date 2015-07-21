@@ -1,7 +1,3 @@
-# can we set and detonate tnt? or give player tnt or weapons?
-# wrong answers will spawn player above water or lava pit.
-# try it with pairs of kids.  One will be the reader.  The other the player.
-# have them alternate at each death, or correct answer.
 # it would be fun to use random to decide whether the player would be punished
 # with water or lava.
 
@@ -21,7 +17,7 @@ finished = False
 ORGx = 0
 ORGy = 0
 ORGz = 0
-
+'''
 # initialize time delays (used to make testing quicker!)
 one = 1
 two = 2
@@ -46,7 +42,7 @@ ten = .5
 loong = .5
 half = .5
 minute = .5
-'''
+
 
 # clear cube at origin
 def reset_floor():
@@ -225,6 +221,11 @@ time.sleep(ten)
 mc.postToChat("For now we'll just look at the first number.")
 time.sleep(five)
 mc.postToChat("The first number is your x coordinate.")
+time.sleep(five)
+mc.postToChat("Stand at the center of the arena. The numbers after block should be 0 1 0.")
+time.sleep(five)
+mc.postToChat("If not, use the command 'setworldspawn 0 0 0' and restart the coordinates game.")
+
 
 # delay to allow them to look around, walk around, get used to looking at coords in F3.
 # set to 20 for activity.
@@ -519,7 +520,7 @@ while not finished:
         mc.postToChat('At what x,y,z coordinates is the yellow corner?')
         time.sleep(two)
         mc.postToChat('Type in the three numbers with a comma in between, like this "5,6,7"')
-        orangeRectAnswer1 = raw_input('Type in the x and z coordinates of the yellow corner: ')
+        orangeRectAnswer1 = raw_input('Type in the x,y,z coordinates of the yellow corner: ')
         if orangeRectAnswer1 == '-5,0,5':
             mc.postToChat("Correct!!!")
             clearLavaTub()
@@ -540,7 +541,7 @@ while not finished:
     while orangeRectAnswer2 != '5,0,15':
         mc.postToChat('At what x,y,z coordinates is the pink corner?')
         time.sleep(two)
-        orangeRectAnswer2 = raw_input('Type in the x and z coordinates of the pink corner: ')
+        orangeRectAnswer2 = raw_input('Type in the x,y,z coordinates of the pink corner: ')
         if orangeRectAnswer2 == '5,0,15':
             mc.postToChat("Correct!!!")
             clearLavaTub()
@@ -587,6 +588,8 @@ while not finished:
             mc.postToChat("Great work!")
             time.sleep(three)
             mc.postToChat("You've finished the game!")
+            time.sleep(three)
+            mc.postToChat("Now go bake yourself a cake!")
             Finished = True
         else:
             spawnLavaTub()
