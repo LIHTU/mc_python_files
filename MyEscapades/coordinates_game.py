@@ -17,7 +17,7 @@ finished = False
 ORGx = 0
 ORGy = 0
 ORGz = 0
-'''
+
 # initialize time delays (used to make testing quicker!)
 one = 1
 two = 2
@@ -42,7 +42,7 @@ ten = .5
 loong = .5
 half = .5
 minute = .5
-
+'''
 
 # clear cube at origin
 def reset_floor():
