@@ -476,7 +476,7 @@ while not finished:
             mc.player.setTilePos(0,20,-10)
     
     # Green Rectangle
-    while greenRectAnswer1 != '12,12':
+    while greenRectAnswer1 != '12,12' or '12, 12' or '12 12':
         buildGreenBox(12,0,12,20,0,25)
         mc.postToChat('I just made a green rectangle on the floor!')
         time.sleep(two)
