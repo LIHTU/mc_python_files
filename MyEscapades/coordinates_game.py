@@ -263,7 +263,8 @@ while not finished:
         mc.postToChat('Type bigger or smaller in the console.')
         time.sleep(one)
         mc.postToChat('To switch to the console, hold the Alt key and press Tab.')
-        happensEast = raw_input('Does your x coord get bigger or smalloer as you go east? Type "bigger" or "smaller": ')
+        
+        happensEast = raw_input('Does your X coordinate get bigger or smaller as you go east? Type "bigger" or "smaller": ')
         if happensEast == 'bigger':
             mc.postToChat("bigger, huh?  Let me check...")
             time.sleep(three)
@@ -477,8 +478,10 @@ while not finished:
     # Green Rectangle
     while greenRectAnswer1 != '12,12':
         buildGreenBox(12,0,12,20,0,25)
-        mc.postToChat('I just made a green rectangle!')
+        mc.postToChat('I just made a green rectangle on the floor!')
         time.sleep(two)
+        mc.postToChat('Go find it!')
+        time.sleep(four)
         mc.postToChat('At what x and z coordinates is the yellow corner?')
         time.sleep(two)
         mc.postToChat('Type in the two numbers with a comma in between, like this "1,2"')
